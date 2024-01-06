@@ -70,6 +70,11 @@ export const Footer = () => {
       : <div>
           <h3 className="head-text">Thank you for getting in touch!</h3>
       </div>}
+    <div className="zaask">
+      <a target="_blank" rel="noreferrer" href="https://www.zaask.pt/user/kamiweb777">
+        <img src="https://www.zaask.pt/widget?user=763067&widget=pro-since" alt="" />
+        </a>
+    </div>
     </>
   )
 }
