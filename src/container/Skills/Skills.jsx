@@ -18,7 +18,8 @@ export const Skills = () => {
  
     client.fetch(query)
            .then((data) => {
-             setExperience(data);
+             const sortedData = data.sort((a, b) => b.year - a.year);
+             setExperience(sortedData);
            })
            client.fetch(skillsQuery)
            .then((data) => {
