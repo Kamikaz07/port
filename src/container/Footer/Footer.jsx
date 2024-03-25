@@ -44,11 +44,7 @@ export const Footer = () => {
         <div className="app__footer-card">
             <img src={images.email} alt="email"/>
             <a href="mailto:kamiweb777@gmail.com" className="p-text">kamiweb777@gmail.com</a>
-          </div> 
-          <div className="app__footer-card">
-            <img src={images.mobile} alt="mobile"/>
-            <a href="tel:+351 925148958" className="p-text">+351 925148958</a>
-          </div> 
+          </div>  
       </div>
 
 
